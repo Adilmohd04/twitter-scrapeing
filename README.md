@@ -48,6 +48,7 @@ This project is a web scraping tool that fetches Twitter (X) trending topics usi
     ```
 
 2. The script will log in to Twitter (X), navigate to the trending section, and extract the trending data.
+![image](https://github.com/user-attachments/assets/be1df399-4ecc-4892-839b-e084a777d03b)
 
 ## Troubleshooting
 
