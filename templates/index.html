@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Trending Hashtags</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Trending Twitter Topics</h1>
+        <a href="#" id="run-script-btn">Click here to run the script</a>
+
+        <div id="result-container" class="result" style="display: none;">
+            <h2>These are the most happening topics as of <span id="datetime"></span></h2>
+            <ul class="trend-list" id="trend-list"></ul>
+
+            <p>The IP address used for this query was: <span id="ip-address"></span>.</p>
+
+            <h3>Here's a JSON extract of this record from the MongoDB:</h3>
+            <pre id="json-data"></pre>
+
+            <a href="#" id="run-script-btn-again">Click here to run the query again</a>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
