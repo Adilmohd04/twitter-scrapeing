@@ -23,8 +23,8 @@ This project is a web scraping tool that fetches Twitter (X) trending topics usi
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Adilmohd04/twitter-scrapeing.git
-    cd twitter-scrapeing
+    git clone https://github.com/Adilmohd04/twitter-scraping.git
+    cd twitter-scraping
     ```
 
 2. Install the required Python dependencies:
